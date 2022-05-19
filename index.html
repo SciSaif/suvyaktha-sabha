@@ -134,10 +134,29 @@
     <section class="gallery">
         <h1>Our Gallery</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar consequat ullamcorper ultricies eget nisl fringilla at. Hendrerit in in mus.</p>
-        <div class="gallery-slider">
+        <div class="carousel">
+            <div class="carousel__cards">
+                <div class="carousel__card  main_card">
+                    <img class="carousel__img" src="./assets/img/pic1.png" alt="#">
+                </div>
+                <div class="carousel__card right_card">
+                    <img class="carousel__img" src="./assets/img/pic2.png" alt="#">
+                </div>
+                <div class="carousel__card left_card">
+                    <img class="carousel__img" src="./assets/img/pic3.png" alt="#">
+                </div>
+            </div>
 
         </div>
+        <div class="carousel__control">
+            <button class="carousel__btn carousel__btn--back"><i class="fas fa-angle-left"></i></button>
+            <button class="carousel__btn carousel__btn--next"><i class="fas fa-angle-right"></i></button>
+        </div>
     </section>
+
+
+
+
     <section class="testimonials">
         <h1>What Our Customers are Saying
 
@@ -148,6 +167,52 @@
         </h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar consequat ullamcorper ultricies eget nisl fringilla at. Hendrerit in in mus.</p>
 
+        <div class="testimonials-box">
+            <div class="people">
+                <div class="person  person-main" id="p1">
+                    <p>I truly have nothing but the highest praise and appreciation for all that you did for us. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar consequat ullamcorper ultricies.</p>
+                    <p>Name1</p>
+                    <p>-by this guy 1</p>
+                    <img src="./assets/img/person1.png " alt="#">
+                </div>
+                <div class="person person-2" id="p2">
+                    <p>t you did for us. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar consequat ullamcorper ultricies.</p>
+                    <p>Name 2</p>
+                    <p>-by this guy 2</p>
+                    <img src="./assets/img/person2.png" alt="#">
+                </div>
+                <div class="person person-3" id="p3">
+                    <p>I ghest praise and appreciation for sit amet, consectetur adipiscing elit. Pulvinar consequat ullamcorper ultricies.</p>
+                    <p>Name 3</p>
+                    <p>-by this guy 3</p>
+                    <img src="./assets/img/person3.png" alt="#">
+                </div>
+                <div class="person person-4" id="p4">
+                    <p>et, consectetur adipiscing elit. Pulvinar consequat ullamcorper ultricies.</p>
+                    <p>Name 4</p>
+                    <p>-by this guy 4</p>
+                    <img src="./assets/img/person4.png" alt="#">
+                </div>
+                <div class="person person-1" id="p5">
+                    <p>at you did for us. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar consequat ullamcorper ultricies.</p>
+                    <p>Name 5</p>
+                    <p>-by this guy 5</p>
+                    <img src="./assets/img/person5.png" alt="#">
+                </div>
+            </div>
+            <div class="testimonials-bar">
+                <div class="testimonials-circle testimonials-circle-selected"></div>
+                <div class="testimonials-circle"></div>
+                <div class="testimonials-circle"></div>
+                <div class="testimonials-circle"></div>
+                <div class="testimonials-circle"></div>
+            </div>
+            <div class="testimony-box">
+                <p class="testimony"></p>
+                <p class="testimony-name"></p>
+                <p class="testimony-info"></p>
+            </div>
+        </div>
     </section>
 
 
@@ -202,6 +267,11 @@
             </ul>
         </div>
     </footer>
+
+
+
+
+    <script src="./script.js"></script>
 
 </body>
 
